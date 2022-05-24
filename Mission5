@@ -1,0 +1,38 @@
+public class Mission5 {
+    
+    public static void multiplesLoop() {
+        
+        //Create List called 'input' and add 12, 20, 30, 17 to the list
+        List<Integer> input = new List<Integer>();
+        input.add(12);
+        input.add(20);
+        input.add(30);
+        input.add(17);
+                //input.add(55);
+                //input.add(63);
+                //input.add(24);
+                //input.add(60);
+        System.debug('Numbers in the List to loop over: ' + input);
+        
+        //Loop input list
+        for (Integer i:input){
+            //if i (number from input list) is a multiple of 3 and 5 print DingDong
+            if (math.mod (i,3) == 0 && math.mod(i,5) == 0){
+                //print the number and ***** to make the debug clear and confirm the number has the correct output
+                System.debug(i+ '***** = ' + 'DingDong');
+            }
+            //if i (number from input list) is a multiple of 3 print Ding
+            else if (math.mod (i,3) == 0){
+                System.debug(i+'***** = ' +'Ding');
+            }
+            //if i (number from input list) is a multiple of 5 print Dong
+            else if (math.mod(i,5) == 0){
+                System.debug(i+'***** = ' + 'Dong');
+            }
+            //else print the number from input
+            else{
+            	System.debug(i);
+            }
+        }
+    }  
+}
