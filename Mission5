@@ -8,10 +8,10 @@ public class Mission5 {
         input.add(20);
         input.add(30);
         input.add(17);
-                //input.add(55);
-                //input.add(63);
-                //input.add(24);
-                //input.add(60);
+        //input.add(55);
+        //input.add(63);
+        //input.add(24);
+        //input.add(60);
         System.debug('Numbers in the List to loop over: ' + input);
         
         //Loop input list
